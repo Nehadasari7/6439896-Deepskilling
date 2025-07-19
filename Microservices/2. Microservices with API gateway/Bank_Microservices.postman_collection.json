@@ -1,0 +1,46 @@
+{
+    "info": {
+        "name": "Bank Microservices",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Get Account by Number",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/accounts/00987987973432",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "accounts",
+                        "00987987973432"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get Loan by Number",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8081/loans/H00987987972342",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8081",
+                    "path": [
+                        "loans",
+                        "H00987987972342"
+                    ]
+                }
+            }
+        }
+    ]
+}

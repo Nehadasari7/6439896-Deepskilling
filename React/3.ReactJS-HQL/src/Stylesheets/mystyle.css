@@ -1,0 +1,16 @@
+.score-container {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.score-container h2 {
+  color: #333;
+}
+
+.score-container p {
+  font-size: 16px;
+}
